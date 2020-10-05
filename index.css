@@ -1,1 +1,89 @@
 
+.container{  height: 100px;
+    display: grid;
+    grid-template-areas: "a a";
+    grid-gap: 100px;
+    grid-auto-columns: 200px;
+    grid-template-rows: 200px;
+
+    grid-template-areas:"cell-0 cell-0 cell-0 cell-0 cell-0"
+                        " cell-21 cell-21 cell-21 cell-21 cell-1  "
+                        " cell-21 cell-21 cell-21 cell-21 cell-2  "
+                        " cell-21 cell-21 cell-21 cell-21 cell-3  "
+                        " cell-4 cell-4 cell-5 cell-6 cell-7  "
+                        " cell-8 cell-9 cell-9 cell-10 cell-11  "
+                        " cell-8 cell-12 cell-13 cell-13 cell-14  "
+                        " cell-15 cell-12 cell-16 cell-17 cell-18  "
+                        " cell-19 cell-20 cell-20 . .  "
+    ;
+
+}
+
+
+
+.cell-1{/*grid-column: 5; grid-row: 1;*/
+    grid-area: cell-1;
+}
+.cell-2{/*grid-column: 5; grid-row: 2;*/
+grid-area: cell-2;
+}
+.cell-3{/*grid-column: 5; grid-row: 3;*/
+grid-area: cell-3;
+}
+.cell-4{/*grid-column: 1; grid-row: 2;*/
+grid-area: cell-4;
+}
+.cell-5{/*grid-column: 3; grid-row: 2;*/
+    grid-area: cell-5;
+}
+.cell-6{/*grid-column: 4; grid-row: 2;*/
+    grid-area: cell-6;
+}
+.cell-7{/*grid-column: 5; grid-row: 2;*/
+    grid-area: cell-7;
+}
+.cell-8{/*grid-column: 1; grid-row: 3;*/
+    grid-area: cell-8;
+}
+.cell-9{/*grid-column: 2; grid-row: 3;*/
+    grid-area: cell-9;
+}
+.cell-10{/*grid-column: 4; grid-row: 3;*/
+    grid-area: cell-10;
+}
+.cell-11{/*grid-column: 5; grid-row: 3;*/
+    grid-area: cell-11;
+}
+.cell-12{/*grid-column: 1; grid-row: 5;*/
+    grid-area: cell-12;
+}
+.cell-13{/*grid-column: 2; grid-row: 4;*/
+    grid-area: cell-13;
+}
+.cell-14{/*grid-column: ; grid-row: ;*/
+    grid-area: cell-14;
+}
+.cell-15{/*grid-column: ; grid-row: ;*/
+    grid-area: cell-15;
+}
+.cell-16{/*grid-column: ; grid-row: ;*/
+    grid-area: cell-16;
+}
+.cell-17{/*grid-column: ; grid-row: ;*/
+    grid-area: cell-17;
+}
+.cell-18{/*grid-column: ; grid-row: ;*/
+    grid-area: cell-18;
+}
+.cell-19{/*grid-column: ; grid-row: ;*/
+    grid-area: cell-19;
+}
+.cell-20{/*grid-column: ; grid-row: ;*/
+    grid-area: cell-20;
+}
+.cell-21{/*grid-column: 1; grid-row: 1;*/
+    grid-area: cell-21;
+}
+.cell-0{
+    grid-area: cell-0;
+}
